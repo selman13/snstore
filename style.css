@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background-color: #32435f;
+}
+nav form {
+    position: relative;
+}
+
+nav form input {
+    margin-top: 21px;
+    padding: 6px;
+    border-radius: 25px;
+    border: none;
+}
+
+nav form button {
+    margin-top: 21px;
+    padding: 6px;
+    border-radius: 25px;
+    border: none;
+}
+
+nav form  i {
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    padding-top: 32px;
+    padding-left: 6px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu button {
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 6px;
+    transition: .9s;
+    background-color: red;
+    color: white;
+}
+
+.menu button:hover {
+    filter: drop-shadow(4px 8px 8px black);
+}
+.cards {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid red;
+    width: 400px;
+    margin-top: 65px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-header img {
+    height: 250px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+.card-header i {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.yazi {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100px;
+    left: 290px;
+    bottom: 420px;
+}
+
+.yazi .circle {
+    display: flex;
+    flex-direction: row;
+}
+
+.yazi .circle div {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 230px;
+    transition: .8s;
+}
+.yazi .circle div:hover { 
+    transform: scale(1.2);
+}
+.blue {
+    background-color: blue;
+}
+.silver {
+    background-color: silver;
+}
+.gold {
+    background-color: gold;
+}
+.black {
+    background-color: black;
+}
+
+
+.card-header p {
+    top: 3px;
+    position: absolute;
+    left: 9px;
+    font-size: 11px;
+    border: 1px solid;
+    padding: 3px;
+}
+.card-header .yazi span{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    /* padding: 13px; */
+    padding-top: 20px;
+    padding-left: 14px;
+
+}
+
+.card-title span {
+    color: gray;
+    font-size: 14px;
+    line-height: 2px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-footer button a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.card-footer button {
+    outline-color: red;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.card-footer button:hover a {
+    color: white;
+}
+
+.button {
+    width: 100%;
+    margin-top: 90px;
+}
+
+.modal-body span {
+    margin-left: 155px;
+}
+
+.modal-body button {
+    background-color: red;
+    margin-left: 5px;
+    border-radius: 9px;
+}
+
+.modal-body button h6 {
+    color: white;
+    padding: 4px;
+    margin-top: 3px;
+} 
+
+.karusel {
+    background-color: transparent;
+    margin: auto;
+}
+
+.karusel .caraousel-item img {
+    width: 500px;
+    height: 500px;
+}
+
+marquee img {
+    height: 150px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
