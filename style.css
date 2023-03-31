@@ -227,8 +227,12 @@ footer .right{
 }
 
 .right .bottom i {
-    font-size: 20px;
+    font-size: 17px;
     margin: 4px;
+    margin-right: 13px;
+}
+.right .top {
+    text-align: center;
 }
 
 
@@ -237,6 +241,10 @@ footer .right{
         display: flex;
         flex-direction: column;
         height: 320px;
+    }
+
+    footer .right .bottom i {
+        font-size: 17px;
     }
 
     footer .right {
@@ -249,7 +257,7 @@ footer .right{
 
     .modal-body button {
         background-color: red;
-        margin-left: 170px;
+        margin-left: 130px;
         border-radius: 9px;
     }
     
