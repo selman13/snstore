@@ -153,22 +153,26 @@ nav form  i {
     margin-top: 90px;
 }
 
-.modal-body span {
-    margin-left: 100px;
+.modal-body h6 {
+    margin-left: 120px;
 }
 
 .modal-body button {
     background-color: red;
-    margin-left: 5px;
+    margin-left: 180px;
     border-radius: 9px;
 }
 
-.modal-body button h6 {
+.modal-body button h5 {
     color: white;
     padding: 4px;
     margin-top: 3px;
 } 
 
+
+.image img {
+    width: 480px;
+}
 .karusel {
     background-color: transparent;
     margin: auto;
@@ -232,7 +236,7 @@ footer .right{
     footer {
         display: flex;
         flex-direction: column;
-        height: 300px;
+        height: 320px;
     }
 
     footer .right {
