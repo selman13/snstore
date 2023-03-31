@@ -246,5 +246,18 @@ footer .right{
     .modal-body .image img {
         width: 400px; 
     }
+
+    .modal-body button {
+        background-color: red;
+        margin-left: 170px;
+        border-radius: 9px;
+    }
+    
+    .modal-body button h5 {
+        color: white;
+        padding: 4px;
+        margin-top: 3px;
+    } 
+    
  }
   
