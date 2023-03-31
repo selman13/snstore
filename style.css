@@ -227,8 +227,8 @@ footer .right{
 }
 
 .right .bottom i {
-    font-size: 23px;
-    margin: 6px;
+    font-size: 20px;
+    margin: 4px;
 }
 
 
@@ -241,6 +241,10 @@ footer .right{
 
     footer .right {
         margin-right: 270px;
+    }
+
+    .modal-body .image img {
+        width: 400px; 
     }
  }
   
