@@ -189,68 +189,40 @@ marquee img {
 }
 
 footer {
-    height: 160px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    padding: 10px;
+    margin: auto;
 }
 
-footer .left {
-    display: flex;
-    flex-direction: row;
+
+
+footer .bottom {
+    padding: 22px
 }
 
-.left p {
-    margin-left: 10px;
-    color: white;
+footer .license span {
+    margin-right: 25px;
     font-weight: bold;
-    font-variant: small-caps;
-}
-
-.left p span {
-    display: flex;
-    flex-direction: row;
-    font-variant: normal;
-    font-size: 13px;
-    margin-left: 4px;
-    color: black;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 8px;
-}
-
-footer .right{
-    margin-left: auto;
-    margin-right: 20px;
-    margin-top: 10px;
-}
-
-.right .bottom i {
-    font-size: 17px;
-    margin: 4px;
-    margin-right: 13px;
-}
-.right .top {
     text-align: center;
 }
 
+footer .bottom .social {
+    display: flex;
+}
+
+.social i {
+    font-size: 20px;
+    margin-left: 6px;
+    margin-top: 4px;
+    transition: .5s;
+}
+
+.social i:hover {
+    transform: scale(1.1);
+}
 
  @media screen and (max-width: 768px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        height: 320px;
-    }
-
-    footer .right .bottom i {
-        font-size: 17px;
-    }
-
-    footer .right {
-        margin-right: 270px;
-    }
-
+ 
     .modal-body .image img {
         width: 400px; 
     }
@@ -266,6 +238,5 @@ footer .right{
         padding: 4px;
         margin-top: 3px;
     } 
-    
  }
   
