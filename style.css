@@ -6,9 +6,12 @@
 
 html, body {
     height: 100%;
-    background-color: #32435f;
+    background-color: indianred;
 }
 
+/* nav, footer {
+    background-color: royalblue;
+} */
 nav form {
     position: relative;
 }
