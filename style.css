@@ -6,7 +6,7 @@
 
 html, body {
     height: 100%;
-    background-color: indianred;
+    background-color: khaki;
 }
 
 /* nav, footer {
@@ -50,11 +50,12 @@ nav form  i {
 }
 
 .card {
-    border: 2px solid red;
+    border: 2px solid yellowgreen;
     width: 400px;
     margin-top: 65px;
     margin-left: 20px;
     margin-right: 20px;
+    box-shadow: 3px 6px 10px black;
 }
 
 .card-header img {
@@ -103,7 +104,7 @@ nav form  i {
 }
 
 .card-footer button {
-    outline-color: red;
+    outline-color: yellow;
     border-radius: 6px;
     padding: 10px;
 }
@@ -116,7 +117,7 @@ nav form  i {
     position: absolute;
     height: 100px;
     width: 100px;
-    background-color: red;
+    background-color: yellow;
     border-radius: 100px;
     left: 250px;
     bottom: 420px;
@@ -152,6 +153,7 @@ nav form  i {
 }
 
 .button {
+    border: 2px solid white;
     width: 100%;
     margin-top: 90px;
 }
@@ -161,13 +163,13 @@ nav form  i {
 }
 
 .modal-body button {
-    background-color: red;
+    background-color: yellow;
     margin-left: 180px;
     border-radius: 9px;
 }
 
 .modal-body button h5 {
-    color: white;
+    color: black;
     padding: 4px;
     margin-top: 3px;
 } 
@@ -196,8 +198,6 @@ footer {
     padding: 10px;
     margin: auto;
 }
-
-
 
 footer .bottom {
     padding: 22px
@@ -231,13 +231,13 @@ footer .bottom .social {
     }
 
     .modal-body button {
-        background-color: red;
+        background-color: yellow;
         margin-left: 130px;
         border-radius: 9px;
     }
     
     .modal-body button h5 {
-        color: white;
+        color: black;
         padding: 4px;
         margin-top: 3px;
     } 
