@@ -47,12 +47,13 @@ nav form  i {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 65px;
 }
 
 .card {
     border: 2px solid yellowgreen;
     width: 400px;
-    margin-top: 65px;
+    margin-top: 25px;
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 3px 6px 10px black;
@@ -77,9 +78,10 @@ nav form  i {
     border: 1px solid;
     padding: 3px;
 }
+
 .card-header .yazi span{
     position: absolute;
-    color: white;
+    color: black;
     font-size: 14px;
     text-align: center;
     padding-top: 20px;
